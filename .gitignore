@@ -1,0 +1,10 @@
+# Local WordPress configuration contains database credentials and secret keys.
+/wp-config.php
+
+# Runtime and machine-local files.
+*.log
+.DS_Store
+Thumbs.db
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/debug.log
