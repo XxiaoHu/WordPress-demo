@@ -2,7 +2,7 @@
 /**
  * Custom 404 page.
  *
- * @package Blank_Theme
+ * @package NewTheme
  */
 
 status_header( 404 );
@@ -13,7 +13,7 @@ nocache_headers();
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title><?php esc_html_e( '页面未找到', 'blank-theme' ); ?></title>
+	<title><?php esc_html_e( '页面未找到', 'newtheme' ); ?></title>
 	<style>
 		* { box-sizing: border-box; }
 		html, body { margin: 0; min-height: 100%; }
@@ -52,9 +52,9 @@ nocache_headers();
 <body>
 	<main>
 		<p class="error-code" aria-hidden="true">404</p>
-		<h1><?php esc_html_e( '页面未找到', 'blank-theme' ); ?></h1>
-		<p><?php esc_html_e( '抱歉，你访问的页面不存在或已经被移除。', 'blank-theme' ); ?></p>
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( '返回首页', 'blank-theme' ); ?></a>
+		<h1><?php esc_html_e( '页面未找到', 'newtheme' ); ?></h1>
+		<p><?php esc_html_e( '抱歉，你访问的页面不存在或已经被移除。', 'newtheme' ); ?></p>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( '返回首页', 'newtheme' ); ?></a>
 	</main>
 </body>
 </html>

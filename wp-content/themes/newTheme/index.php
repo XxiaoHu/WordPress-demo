@@ -2,7 +2,7 @@
 /**
  * Display the custom 404 page for the homepage and every fallback request.
  *
- * @package Blank_Theme
+ * @package NewTheme
  */
 
-// require get_template_directory() . '/404.php';
+require get_template_directory() . '/404.php';
